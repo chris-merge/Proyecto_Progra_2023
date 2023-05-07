@@ -1,0 +1,26 @@
+﻿body {
+}
+/*dimenciones de la img del logo*/
+.logo {
+    width:100px;
+    height:100px;
+}
+/*ancho y alto del cuadro del login*/
+.login {
+    /*border: 1px solid purple;*/
+    width: 400px;
+    height: 400px;
+    background-color: #98a8f87a;
+    border-radius:25px;
+    box-shadow:10px 15px #000000;
+}
+/*codigo para centrar el logo y bajarlo*/
+#conten_logo{
+    display:flex;
+    justify-content:center;
+    padding-top:25px;
+}
+.lbusuario{
+    width:100px;
+    height:auto;
+}

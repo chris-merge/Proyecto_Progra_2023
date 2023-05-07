@@ -1,0 +1,23 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+<br>
+<br>
+<link href="~/Content/estilo_inicio.css" rel="stylesheet" />
+<div class="container">
+    <div class="login">
+        <div id="conten_logo">
+            <img class="logo" src="~/img/usuario.png" />
+        </div>
+        <form action="/" method="post">
+            <div class="">
+                @Html.Label("USUARIO", new { @class = "form-control lbusuario" })
+                <input type="text" name="USUARIO" value="" />
+                @Html.ValidationMessage("USUARIO")
+            </div>
+            
+        </form>
+       
+
+    </div>
+</div>
