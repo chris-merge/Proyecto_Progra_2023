@@ -10,12 +10,20 @@
             <img class="logo" src="~/img/usuario.png" />
         </div>
         <form action="/" method="post">
-            <div class="">
+            <div class="row">
                 @Html.Label("USUARIO", new { @class = "form-control lbusuario" })
-                <input type="text" name="USUARIO" value="" />
+                <input type="text" name="USUARIO" placeholder="Geny" class="txtUsuario" />
                 @Html.ValidationMessage("USUARIO")
             </div>
-            
+            <div class="row">
+                @Html.Label("CONTRASEÑA", new { @class = "form-control lbPass" })
+                <input type="password" name="CONTRACEÑA" class="txtPass" />
+                @Html.ValidationMessage("CONTRACEÑA")
+            </div>
+            <div class="row botones_login">
+                <input type="submit" name="Enviar" value="Login"  class="btn btn-primary btn-login"/>
+                <a href="#" class=" btn btn-danger">Contraseña olvidada</a>
+            </div>
         </form>
        
 

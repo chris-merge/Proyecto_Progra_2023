@@ -20,7 +20,81 @@
     justify-content:center;
     padding-top:25px;
 }
-.lbusuario{
-    width:100px;
-    height:auto;
+.lbusuario {
+    width: 150px;
+    height: auto;
+    /*Mover la cada label a la derecha*/
+    margin-left: 120px;
+    margin-top: 25px;
+    /*centrar el texto*/
+    text-align: center;
+    /*estilo de letra*/
+    font-family: italic;
+    /*transparente el label*/
+    background-color:transparent;
+    /*quitar los bordes*/
+    border:none;
+}
+.txtUsuario{
+    /*moverlo a la derecha*/
+    margin-left:122px;
+    /*bajarlo*/
+    margin-top:25px;
+    /*ancho de la caja de texto*/
+    width:150px;
+    /*quitar los borde de la caja de texto de usuario*/
+    border:0;
+    /*transparencia */
+    background-color:transparent;
+    /*quitar las lineas*/
+    outline:none;
+   
+}
+
+.txtUsuario {
+    /*solo poner el borde inferior (que aparesca solo una linea) de la caja de texto usuario*/
+    border-bottom: 1px solid black;
+}
+.txtPass {
+    /*mover lo la derecha la caja de texto password*/
+    margin-left: 122px;
+    /*bjar la caja password*/
+    margin-top: 10px;
+    /*ancho de la caja de texto password*/
+    width: 150px;
+    /*quitar los borde de la caja de texto de password*/
+    border: 0;
+    /*transparencia */
+    background-color: transparent;
+    /*quitar las lineas*/
+    outline: none;
+}
+.txtPass {
+    /*solo poner el borde inferior (que aparesca solo una linea) de la caja de texto password*/
+    border-bottom: 1px solid black;
+}
+.lbPass {
+    width: 150px;
+    height: auto;
+    /*Mover la cada label a la derecha*/
+    margin-left: 120px;
+    margin-top: 25px;
+    /*centrar el texto*/
+    text-align: center;
+    /*estilo de letra*/
+    font-family: italic;
+    /*transparente el label*/
+    background-color: transparent;
+    /*quitar los bordes*/
+    border: none;
+}
+/*mover los botones al centro */
+.btn {
+    
+    margin-top:10px;
+}
+/*dar un espacio entre los botones*/
+.botones_login{
+    display:flex;
+    justify-content:space-between;
 }
